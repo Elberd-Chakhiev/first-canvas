@@ -38,7 +38,7 @@ const findCurPos = e =>
 
 document.getElementById('set').addEventListener('click', () => {settings.hue = Number(document.getElementById('hue').value)});
 window.addEventListener('mousemove', findCurPos);
-window.addEventListener('touchmove', findCurPos);
+window.addEventListener('pointermove', findCurPos);
 
 
 const Step = () => 
