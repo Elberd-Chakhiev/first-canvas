@@ -6,10 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
     <script defer src="script.js"></script>
 </head>
 
-<body style="height: 100vh; overflow: hidden; margin: 0; padding: 0; box-sizing: border-box;">
+<body>
+    <div style="position: absolute; top: 10px; left: 10px;">
+        color <input type="text" value="10" id="hue">
+        <button id="set"> set </button>
+    </div>
     <canvas id="c" style="border: 1px solid;"></canvas>
 </body>
 
